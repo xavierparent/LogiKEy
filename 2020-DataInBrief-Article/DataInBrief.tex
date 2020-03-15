@@ -320,175 +320,175 @@ Contributed data files in category I are listed in
 Table~\ref{table:DeonticLogics}. They provide encodings of SSEs, and
 associated tests, of various deontic logics in meta-logic HOL.
 
-%\setcounter{table}{0}
-%\begin{table}[ht!]
-%\caption{Category I data files --- deontic logics, extensions of
-%  deontic logics and logic combinations \label{table:DeonticLogics}}
-%\begin{tabularx}{\textwidth}{ccc*{1}{>{\raggedright\arraybackslash}X}}
-%  \toprule
-%  File & Dependency & Reading & Description \\
-%  \midrule
-%  \textsf{\small SDL.thy} 
-%       & \textsf{\small Main.thy} 
-%                    & \cite{J23,ddl:C80}  
-%                              & % Provides a consistent SSE of SDL in
-%                                % HOL; see Fig.~\ref{fig:SDL}. An unary deontic operator is
-%                                % defined (lines 20 and 38).
-%                                % The D axiom is postulated (line 35) and correspondence to seriality of the
-%                                % accessibility is proved (line 38). The added
-%                                % first-order and higher-order
-%                                % quantifiers (lines 30--33) are constant domain
-%                                % (possibilist notion of quantification). This is verified by proving
-%                                % the Barcan formula and its
-%                                % converse. \\
-%                                Provides a consistent SSE of SDL in
-%                                HOL. An unary deontic operator is
-%                                defined.
-%                                The D axiom is postulated and correspondence to seriality of the
-%                                accessibility is proved. The added
-%                                first-order and higher-order
-%                                quantifiers are constant domain
-%                                (possibilist notion of quantification). This is verified by proving
-%                                the Barcan formula and its converse. \\
-%  \midrule
-%  \textsf{\small CJ_DDL.thy} 
-%       & \textsf{\small Main.thy} 
-%                    & \cite{C71}  
-%                              &  Provides a consistent SSE of a dyadic deontic
-%                                logic (DDL) by Carmo
-%                                and Jones \cite{CJ13} in HOL.  Different modal
-%                                operators are introduced: dyadic deontic
-%                                obligation, monadic deontic operator for
-%                                actual obligation, monadic
-%                                deontic operator for primary
-%                                obligation,
-%                                and further alethic modalities.
-%                                Moreover, constant domain first-order and higher-order
-%                                quantifiers are added.\\
-%                                % Provides a consistent SSE of a
-%                                % dyadic deontic
-%                                % logic (DDL) by Carmo
-%                                % and Jones \cite{CJ13} in HOL; see
-%                                % Fig.~\ref{fig:DDL}.  Different modal
-%                                % operators are introduced: dyadic
-%                                % deontic
-%                                % obligation (line 33; see also line
-%                                % 49), monadic deontic operator for
-%                                % actual obligation (line 34), monadic
-%                                % deontic operator for primary
-%                                % obligation (line 35),
-%                                % and further alethic modalities
-%                                % (lines
-%                                % 27--32).
-%                                % Moreover, constant domain
-%                                % first-order
-%                                % and higher-order
-%                                % quantifiers are added (lines
-%                                % 40-43).\\
-%  \midrule
-% \textsf{\small \detokenize{CJ_DDL_Tests.thy}}
-%       & \textsf{\small CJ_DDL.thy} 
-%                    & \cite{C71}  
-%                              & Contains
-%                                soundness and proof automation tests for the
-%                                embedding of Carmo and Jones' s DDL in HOL given in
-%                                \textsf{\small CJ_DDL.thy}. For example,
-%                                the monadic modal operators $\Box$,
-%                                $\Box_p$ and $\Box_a$ are  identified
-%                                as S5, KT and KD modalities,
-%                                respectively. Relevant lemmata from the original work
-%                                of Carmo and Jones \cite{CJ13} are
-%                                automated. \\
-%                               % This file, see Fig.~\ref{fig:DDL_Tests}, contains
-%                                % soundness and proof automation tests for the
-%                                % embedding of DDL in HOL given in
-%                                %  \textsf{\small DDL.thy}. For example,
-%                                %   the monadic modal operators $\Box$,
-%                                % $\Box_p$ and $\Box_a$ are  identified
-%                                % in lines 11--25
-%                                % as S5, KT and KD modalities,
-%                                % respectively. Relevant lemmata (see
-%                                % the entries with name prefixes
-%                                % $C\_1$--$C\_15$) from the original work
-%                                % of Carmo and Jones \cite{CJ13} are
-%                                % automated, except for the two lemmata
-%                                % $C\_3$ and $C\_8$ which are
-%                                % open benchmark problems for theorem
-%                                % provers, and which so far
-%                                % can only be proved interactively (not given here).\\
-%  \midrule
-%  \textsf{\small E.thy} 
-%       & \textsf{\small Main.thy} 
-%                    & \cite{J45},\cite[Fig.6]{J48}  
-%                              & Provides a consistent SSE of a quantified extension of
-%                                Aqvist's DDL (called system E) in HOL. The file also
-%                                runs a number of reasoning tasks (validity checking, refutation, correspondance theory).\\
-%  \midrule
-%  \textsf{\small \detokenize{Lewis_DDL.thy}}
-%       & \textsf{\small Main.thy} 
-%                    & \cite{ddl:L73}  
-%                              & Provides a consistent SSE of Lewis's DDL.
-%                                The file also
-%                                runs a number of reasoning tasks (validity checking, refutation, correspondance theory). The relationship with E is also studied.\\
-%  \midrule
-%  \textsf{\small \detokenize{IO_out2_STIT.thy}}
-%       & \textsf{\small Main.thy} 
-%                    & \cite{J46}  
-%                              & Provides a consistent SSE of a quantified extension of
-%                                IO logic (out2) \cite{DBLP:journals/jphil/MakinsonT00,textbook18} and elements of STIT logics \cite{stit} in HOL. The file also
-%                                contains proof automation tests and soundness checks.\\
-%  \midrule
-%  \textsf{\small \detokenize{CJ_DDLplus.thy}}
-%       & \textsf{\small  Main.thy} 
-%                    & \cite{C76,C77}
-%                              & A modification of the SSE developed in
-%                                file \textsf{\small CJ_DDL.thy} is
-%                                presented; see
-%                                Figs.~\ref{fig:CJDDLplus1}
-%                                and~\ref{fig:CJDDLplus2}. This theory provides the starting point
-%                                for an extension of a higher-order
-%                                variant of Carmo and Jones's DDL into a
-%                                two-dimensional semantics as
-%                                originally presented by David Kaplan
-%                                for his logic of demonstratives
-%                                \cite{Kaplan1979,Kaplan1989}. The logic extension is
-%                                completed in file \textsf{\small
-%                                \detokenize{Extended_CJ_DDL.thy}}. The
-%                                displayed lines in Fig.~\ref{fig:CJDDLplus2} show
-%                                automations of various lemmata
-%                                from the original paper of Carmo
-%                                and Jones \cite{CJ13}, where they were
-%                                proved manually with pen and paper. \\
-%  \midrule
-%  \textsf{\small \detokenize{Extended_CJ_DDL.thy}}
-%       & \textsf{\small \detokenize{CJ_DDLplus.thy}}
-%                    & \cite{C76,C77}
-%                              & Contains a further extension and
-%                                combination of the
-%                                higher-order DDL encoded in file
-%                                \textsf{\small
-%                                \detokenize{CJ_DDLplus.thy}} with
-%                                relevant parts (for the work presented
-%                                in the related research article
-%                                \cite{J48}) of Kaplan's logic of demonstratives (LD)~\cite{Kaplan1979,Kaplan1989}.\\
-%  \bottomrule
-%\end{tabularx}
-%\end{table}
+\setcounter{table}{0}
+\begin{table}[ht!]
+\caption{Category I data files --- deontic logics, extensions of
+  deontic logics and logic combinations \label{table:DeonticLogics}}
+\begin{tabularx}{\textwidth}{ccc*{1}{>{\raggedright\arraybackslash}X}}
+  \toprule
+  File & Dependency & Reading & Description \\
+  \midrule
+  \textsf{\small SDL.thy} 
+       & \textsf{\small Main.thy} 
+                    & \cite{J23,ddl:C80}  
+                              & % Provides a consistent SSE of SDL in
+                                % HOL; see Fig.~\ref{fig:SDL}. An unary deontic operator is
+                                % defined (lines 20 and 38).
+                                % The D axiom is postulated (line 35) and correspondence to seriality of the
+                                % accessibility is proved (line 38). The added
+                                % first-order and higher-order
+                                % quantifiers (lines 30--33) are constant domain
+                                % (possibilist notion of quantification). This is verified by proving
+                                % the Barcan formula and its
+                                % converse. \\
+                                Provides a consistent SSE of SDL in
+                                HOL. An unary deontic operator is
+                                defined.
+                                The D axiom is postulated and correspondence to seriality of the
+                                accessibility is proved. The added
+                                first-order and higher-order
+                                quantifiers are constant domain
+                                (possibilist notion of quantification). This is verified by proving
+                                the Barcan formula and its converse. \\
+  \midrule
+  \textsf{\small CJ_DDL.thy} 
+       & \textsf{\small Main.thy} 
+                    & \cite{C71}  
+                              &  Provides a consistent SSE of a dyadic deontic
+                                logic (DDL) by Carmo
+                                and Jones \cite{CJ13} in HOL.  Different modal
+                                operators are introduced: dyadic deontic
+                                obligation, monadic deontic operator for
+                                actual obligation, monadic
+                                deontic operator for primary
+                                obligation,
+                                and further alethic modalities.
+                                Moreover, constant domain first-order and higher-order
+                                quantifiers are added.\\
+                                % Provides a consistent SSE of a
+                                % dyadic deontic
+                                % logic (DDL) by Carmo
+                                % and Jones \cite{CJ13} in HOL; see
+                                % Fig.~\ref{fig:DDL}.  Different modal
+                                % operators are introduced: dyadic
+                                % deontic
+                                % obligation (line 33; see also line
+                                % 49), monadic deontic operator for
+                                % actual obligation (line 34), monadic
+                                % deontic operator for primary
+                                % obligation (line 35),
+                                % and further alethic modalities
+                                % (lines
+                                % 27--32).
+                                % Moreover, constant domain
+                                % first-order
+                                % and higher-order
+                                % quantifiers are added (lines
+                                % 40-43).\\
+  \midrule
+ \textsf{\small \detokenize{CJ_DDL_Tests.thy}}
+       & \textsf{\small CJ_DDL.thy} 
+                    & \cite{C71}  
+                              & Contains
+                                soundness and proof automation tests for the
+                                embedding of Carmo and Jones' s DDL in HOL given in
+                                \textsf{\small CJ_DDL.thy}. For example,
+                                the monadic modal operators $\Box$,
+                                $\Box_p$ and $\Box_a$ are  identified
+                                as S5, KT and KD modalities,
+                                respectively. Relevant lemmata from the original work
+                                of Carmo and Jones \cite{CJ13} are
+                                automated. \\
+                               % This file, see Fig.~\ref{fig:DDL_Tests}, contains
+                                % soundness and proof automation tests for the
+                                % embedding of DDL in HOL given in
+                                %  \textsf{\small DDL.thy}. For example,
+                                %   the monadic modal operators $\Box$,
+                                % $\Box_p$ and $\Box_a$ are  identified
+                                % in lines 11--25
+                                % as S5, KT and KD modalities,
+                                % respectively. Relevant lemmata (see
+                                % the entries with name prefixes
+                                % $C\_1$--$C\_15$) from the original work
+                                % of Carmo and Jones \cite{CJ13} are
+                                % automated, except for the two lemmata
+                                % $C\_3$ and $C\_8$ which are
+                                % open benchmark problems for theorem
+                                % provers, and which so far
+                                % can only be proved interactively (not given here).\\
+  \midrule
+  \textsf{\small E.thy} 
+       & \textsf{\small Main.thy} 
+                    & \cite{J45},\cite[Fig.6]{J48}  
+                              & Provides a consistent SSE of a quantified extension of
+                                Aqvist's DDL (called system E) in HOL. The file also
+                                runs a number of reasoning tasks (validity checking, refutation, correspondance theory).\\
+  \midrule
+  \textsf{\small \detokenize{Lewis_DDL.thy}}
+       & \textsf{\small Main.thy} 
+                    & \cite{ddl:L73}  
+                              & Provides a consistent SSE of Lewis's DDL.
+                                The file also
+                                runs a number of reasoning tasks (validity checking, refutation, correspondance theory). The relationship with E is also studied.\\
+  \midrule
+  \textsf{\small \detokenize{IO_out2_STIT.thy}}
+       & \textsf{\small Main.thy} 
+                    & \cite{J46}  
+                              & Provides a consistent SSE of a quantified extension of
+                                IO logic (out2) \cite{DBLP:journals/jphil/MakinsonT00,textbook18} and elements of STIT logics \cite{stit} in HOL. The file also
+                                contains proof automation tests and soundness checks.\\
+  \midrule
+  \textsf{\small \detokenize{CJ_DDLplus.thy}}
+       & \textsf{\small  Main.thy} 
+                    & \cite{C76,C77}
+                              & A modification of the SSE developed in
+                                file \textsf{\small CJ_DDL.thy} is
+                                presented; see
+                                Figs.~\ref{fig:CJDDLplus1}
+                                and~\ref{fig:CJDDLplus2}. This theory provides the starting point
+                                for an extension of a higher-order
+                                variant of Carmo and Jones's DDL into a
+                                two-dimensional semantics as
+                                originally presented by David Kaplan
+                                for his logic of demonstratives
+                                \cite{Kaplan1979,Kaplan1989}. The logic extension is
+                                completed in file \textsf{\small
+                                \detokenize{Extended_CJ_DDL.thy}}. The
+                                displayed lines in Fig.~\ref{fig:CJDDLplus2} show
+                                automations of various lemmata
+                                from the original paper of Carmo
+                                and Jones \cite{CJ13}, where they were
+                                proved manually with pen and paper. \\
+  \midrule
+  \textsf{\small \detokenize{Extended_CJ_DDL.thy}}
+       & \textsf{\small \detokenize{CJ_DDLplus.thy}}
+                    & \cite{C76,C77}
+                              & Contains a further extension and
+                                combination of the
+                                higher-order DDL encoded in file
+                                \textsf{\small
+                                \detokenize{CJ_DDLplus.thy}} with
+                                relevant parts (for the work presented
+                                in the related research article
+                                \cite{J48}) of Kaplan's logic of demonstratives (LD)~\cite{Kaplan1979,Kaplan1989}.\\
+  \bottomrule
+\end{tabularx}
+\end{table}
 
 
 
-%\begin{figure}[ht!]
-% \includegraphics[width=\textwidth]{CJ_DDLplus1.png}
-%\caption{Data file \textsf{\small \detokenize{CJ_DDLplus.thy}; in
-%    lines 29--85 the SSE of their DDL in HOL is presented \label{fig:CJDDLplus1}}}
-%\end{figure}
-%
-%\begin{figure}[ht!]
-% \includegraphics[width=\textwidth]{CJ_DDLplus2.png}
-%\caption{Data file \textsf{\small \detokenize{CJ_DDLplus.thy}; in
-%    lines 87--137 lemmata from Carmo and Jones paper \cite{CJ13} are
-%    proved \label{fig:CJDDLplus2}}}
-%\end{figure}
+\begin{figure}[ht!]
+ \includegraphics[width=\textwidth]{CJ_DDLplus1.png}
+\caption{Data file \textsf{\small \detokenize{CJ_DDLplus.thy}; in
+    lines 29--85 the SSE of their DDL in HOL is presented \label{fig:CJDDLplus1}}}
+\end{figure}
+
+\begin{figure}[ht!]
+ \includegraphics[width=\textwidth]{CJ_DDLplus2.png}
+\caption{Data file \textsf{\small \detokenize{CJ_DDLplus.thy}; in
+    lines 87--137 lemmata from Carmo and Jones paper \cite{CJ13} are
+    proved \label{fig:CJDDLplus2}}}
+\end{figure}
 
 Contributed data files in category II are listed in
 Table~\ref{table:Paradoxes}. They study paradoxes and smaller examples of normative reasoning.
@@ -511,7 +511,7 @@ File & Dependency & Reading & Description \\
 & --
 &  Contains a detailed analysis of Chisholm's contrary-to-duty paradox \cite{c63}
   in SDL, including an independence analysis for all 
-  wide and narrow scoping options that arise in the axiomatization of
+  wide and narrow scoping options that arise in the formalisation of
   the paradox; see Fig.~\ref{fig:Chisholm_SDL}. \\
 \midrule
 \textsf{\small \detokenize{Chisholm_CJ_DDL_Monadic.thy}}
@@ -519,7 +519,7 @@ File & Dependency & Reading & Description \\
 &  --
 & This file is an experiment. It contains a study analogous to \textsf{\small
   \detokenize{Chisholm_SDL.thy}} for 
-  monadic obligation in Carmo and Jones's DDL. This way of tackling the paradox does not correspond to their own approach. here the conditional obligation operator is defined in terms of material implication and a non-normal monadic obligation operator.\\
+  monadic obligation in Carmo and Jones' DDL. This way of tackling the paradox does not correspond to their own approach. Here the conditional obligation operator is defined in terms of material implication and a non-normal monadic obligation operator.\\
 \midrule
 \textsf{\small \detokenize{Chisholm_CJ_DDL_Dyadic.thy}}
 & \textsf{\small CJ_DDL.thy} 
@@ -529,7 +529,7 @@ File & Dependency & Reading & Description \\
    dyadic  obligation in Carmo and Jones' DDL. \\
 \midrule
 \textsf{\small \detokenize{Chisholm_E.thy}}
-& \textsf{\small DDL.thy} 
+& \textsf{\small CJ_DDL.thy} 
 & --
 &  Contains a study analogous to \textsf{\small
   \detokenize{Chisholm_SDL.thy}} for 
@@ -539,7 +539,7 @@ File & Dependency & Reading & Description \\
 & \textsf{\small \detokenize{IO_out2_STIT}}
 & --
 &  Contains a study of different paradoxes from the literature in IO
-  logic ($out_2$). \\
+  logic (out2). \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -655,7 +655,7 @@ the related research article~\cite{J48}.
   was studied and proved; this proof has been published
   \cite{C71,R63}. Furthermore, \textit{implications} of the embedding
   of DDL in HOL were studied (Step 5); see for example the additional
-  theorems in file \textsf{\small \detokenize{DDL_Tests.thy}}
+  theorems in file \textsf{\small \detokenize{CJ_DDL_Tests.thy}}
   and the contrary-to-duty studies conducted with this DDL logic in
   files \textsf{\small \detokenize{Chisholm_DDL_Monadic.thy}} and
   \textsf{\small \detokenize{Chisholm_DDL_Dyadic.thy}}. Since the DDL
