@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.13)  15 MAR 2020 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.13)  15 MAR 2020 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -173,8 +173,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@delta=\dimen133
 \TX@cols=\count100
 \TX@ftn=\toks18
-)
-No file DataInBrief.aux.
+) (./DataInBrief.aux)
 \openout1 = `DataInBrief.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -189,6 +188,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
+
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
@@ -365,7 +365,7 @@ e 321.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -373,7 +373,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -384,7 +384,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -393,7 +393,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -404,7 +404,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -413,7 +413,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -424,7 +424,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -433,7 +433,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -444,7 +444,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -453,7 +453,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -464,7 +464,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -473,7 +473,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -484,7 +484,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -493,7 +493,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -504,7 +504,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -513,7 +513,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -524,7 +524,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -533,7 +533,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -544,7 +544,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -553,7 +553,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -564,7 +564,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -573,7 +573,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -584,7 +584,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -593,7 +593,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -604,7 +604,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -613,7 +613,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -624,7 +624,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -633,7 +633,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -644,7 +644,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -653,7 +653,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -664,7 +664,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -673,7 +673,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -684,7 +684,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -693,7 +693,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -704,7 +704,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -713,7 +713,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -724,7 +724,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -733,7 +733,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -744,7 +744,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -753,7 +753,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -764,7 +764,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -773,7 +773,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -784,7 +784,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -793,7 +793,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -804,7 +804,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -813,7 +813,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -824,7 +824,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -833,7 +833,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -844,7 +844,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -853,7 +853,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -864,7 +864,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -873,7 +873,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -884,7 +884,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -893,7 +893,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -904,7 +904,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -913,7 +913,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -924,7 +924,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -933,7 +933,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -944,7 +944,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -953,7 +953,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -964,7 +964,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -973,7 +973,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -984,7 +984,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -993,7 +993,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1004,7 +1004,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1013,7 +1013,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1024,7 +1024,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1033,7 +1033,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1044,7 +1044,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1053,7 +1053,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1064,7 +1064,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1073,7 +1073,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1084,7 +1084,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1093,7 +1093,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1104,7 +1104,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1113,7 +1113,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1124,7 +1124,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1133,7 +1133,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1144,7 +1144,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1153,7 +1153,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1164,7 +1164,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1173,7 +1173,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1184,7 +1184,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1193,7 +1193,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1204,7 +1204,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1213,7 +1213,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1224,7 +1224,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1233,7 +1233,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1244,7 +1244,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1253,7 +1253,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1264,7 +1264,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1273,7 +1273,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1284,7 +1284,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1293,7 +1293,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1304,7 +1304,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1313,7 +1313,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1324,7 +1324,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1333,7 +1333,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1344,7 +1344,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -1353,16 +1353,16 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.512 \end{tabularx}
+l.476 \end{tabularx}
                     
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 3000 strings out of 494490
- 40463 string characters out of 6175368
- 126221 words of memory out of 5000000
+ 3002 strings out of 494490
+ 40495 string characters out of 6175368
+ 126257 words of memory out of 5000000
  6628 multiletter control sequences out of 15000+600000
  10151 words of font info for 31 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,12n,35p,510b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,35p,510b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 !  ==> Fatal error occurred, no output PDF file produced!
