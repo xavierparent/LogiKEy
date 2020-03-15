@@ -282,9 +282,8 @@ If your data article is not related to a research article, please delete this la
   Sergot \cite{Jones1992-JONDLI} that deontic logic is needed when it is necessary to make
   explicit, and then reason about, the distinction between what ought
   to be the case and what is the case. Furthermore, the adequate
-  handling of norm violation (also called contrary-to-duty situations)
-  has posed a core challenge for knowledge representation
-  frameworks. This problem motivated the design of deontic logics (and logic combinations) more sophisticated than traditional ones, like modal logic. These frameworks are automatized for the first time. 
+  handling of the deontic paradoxes (like the so-called paradox of contrary-to-duty obligation)
+  has posed a core challenge for the earliest deontic logics. This problem motivated the design of new and more sophisticated deontic logics (and logic combinations). These frameworks are automatized for the first time. 
 
 %The work of those interested in automated reasoning for
 %  normative reasoning usually goes on as if the intricacies of
@@ -352,7 +351,7 @@ associated tests, of various deontic logics in meta-logic HOL.
                                 (possibilist notion of quantification). This is verified by proving
                                 the Barcan formula and its converse. \\
   \midrule
-  \textsf{\small DDL.thy} 
+  \textsf{\small CJ\_DDL.thy} 
        & \textsf{\small Main.thy} 
                     & \cite{C71}  
                               &  Provides a consistent SSE of a dyadic deontic
@@ -387,13 +386,13 @@ associated tests, of various deontic logics in meta-logic HOL.
                                 % quantifiers are added (lines
                                 % 40-43).\\
   \midrule
-  \textsf{\small \detokenize{DDL_Tests.thy}}
-       & \textsf{\small DDL.thy} 
+  \textsf{\small \detokenize{CJ_DDL_Tests.thy}}
+       & \textsf{\small CJ_DDL.thy} 
                     & \cite{C71}  
                               & Contains
                                 soundness and proof automation tests for the
-                                embedding of DDL in HOL given in
-                                \textsf{\small DDL.thy}. For example,
+                                embedding of Carmo and Jones' s DDL in HOL given in
+                                \textsf{\small CJ_DDL.thy}. For example,
                                 the monadic modal operators $\Box$,
                                 $\Box_p$ and $\Box_a$ are  identified
                                 as S5, KT and KD modalities,
@@ -422,10 +421,10 @@ associated tests, of various deontic logics in meta-logic HOL.
        & \textsf{\small Main.thy} 
                     & \cite{J45},\cite[Fig.6]{J48}  
                               & Provides a consistent SSE of a quantified extension of
-                                Aqvist's System E in HOL. The file also
+                                Aqvist's DDL (called system E) in HOL. The file also
                                 runs a number of reasoning tasks (validity checking, refutation, correspondance theory).\\
   \midrule
-  \textsf{\small \detokenize{Lewis.thy}}
+  \textsf{\small \detokenize{Lewis_DDL.thy}}
        & \textsf{\small Main.thy} 
                     & \cite{ddl:L73}  
                               & Provides a consistent SSE of Lewis's DDL.
@@ -439,36 +438,36 @@ associated tests, of various deontic logics in meta-logic HOL.
                                 IO logic (out2) \cite{DBLP:journals/jphil/MakinsonT00,textbook18} and elements of STIT logics \cite{stit} in HOL. The file also
                                 contains proof automation tests and soundness checks.\\
   \midrule
-  \textsf{\small \detokenize{CJDDLplus.thy}}
+  \textsf{\small \detokenize{CJ_DDLplus.thy}}
        & \textsf{\small  Main.thy} 
                     & \cite{C76,C77}
                               & A modification of the SSE developed in
-                                file \textsf{\small DDL.thy} is
+                                file \textsf{\small CJ_DDL.thy} is
                                 presented; see
                                 Figs.~\ref{fig:CJDDLplus1}
                                 and~\ref{fig:CJDDLplus2}. This theory provides the starting point
                                 for an extension of a higher-order
-                                variant of DDL into a
+                                variant of their DDL into a
                                 two-dimensional semantics as
                                 originally presented by David Kaplan
                                 for his logic of demonstratives
                                 \cite{Kaplan1979,Kaplan1989}. The logic extension is
                                 completed in file \textsf{\small
-                                \detokenize{ExtendedDDL.thy}}. The
+                                \detokenize{Extended_CJ_DDL.thy}}. The
                                 displayed lines in Fig.~\ref{fig:CJDDLplus2} show
                                 automations of various lemmata
                                 from the original paper of Carmo
                                 and Jones \cite{CJ13}, where they were
                                 proved manually with pen and paper. \\
   \midrule
-  \textsf{\small \detokenize{ExtendedDDL.thy}}
-       & \textsf{\small \detokenize{CJDDLplus.thy}}
+  \textsf{\small \detokenize{ExtendedCJ_DDL.thy}}
+       & \textsf{\small \detokenize{CJ_DDLplus.thy}}
                     & \cite{C76,C77}
                               & Contains a further extension and
                                 combination of the
                                 higher-order DDL encoded in file
                                 \textsf{\small
-                                \detokenize{CJDDLplus.thy}} with
+                                \detokenize{CJ_DDLplus.thy}} with
                                 relevant parts (for the work presented
                                 in the related research article
                                 \cite{J48}) of Kaplan's logic of demonstratives (LD)~\cite{Kaplan1979,Kaplan1989}.\\
@@ -479,14 +478,14 @@ associated tests, of various deontic logics in meta-logic HOL.
 
 
 \begin{figure}[ht!]
- \includegraphics[width=\textwidth]{CJDDLplus1.png}
-\caption{Data file \textsf{\small \detokenize{CJDDLplus.thy}; in
-    lines 29--85 the SSE of DDL in HOL is presented \label{fig:CJDDLplus1}}}
+ \includegraphics[width=\textwidth]{CJ_DDLplus1.png}
+\caption{Data file \textsf{\small \detokenize{CJ_DDLplus.thy}; in
+    lines 29--85 the SSE of their DDL in HOL is presented \label{fig:CJDDLplus1}}}
 \end{figure}
 
 \begin{figure}[ht!]
- \includegraphics[width=\textwidth]{CJDDLplus2.png}
-\caption{Data file \textsf{\small \detokenize{CJDDLplus.thy}; in
+ \includegraphics[width=\textwidth]{CJ_DDLplus2.png}
+\caption{Data file \textsf{\small \detokenize{CJ_DDLplus.thy}; in
     lines 87--137 lemmata from Carmo and Jones paper \cite{CJ13} are
     proved \label{fig:CJDDLplus2}}}
 \end{figure}
@@ -515,15 +514,15 @@ File & Dependency & Reading & Description \\
   wide and narrow scoping options that arise in the axiomatization of
   the paradox; see Fig.~\ref{fig:Chisholm_SDL}. \\
 \midrule
-\textsf{\small \detokenize{Chisholm_DDL_Monadic.thy}}
-& \textsf{\small DDL.thy} 
+\textsf{\small \detokenize{Chisholm_CJ_DDL_Monadic.thy}}
+& \textsf{\small CJ_DDL.thy} 
 &  --
 &  Contains a study analogous to \textsf{\small
   \detokenize{Chisholm_SDL.thy}} for 
-  monadic obligation in DDL. \\
+  monadic obligation in Carmo and Jones's DDL. This does not correspond to their own solutionThis is aan example of how to experiment with the logic. \\
 \midrule
-\textsf{\small \detokenize{Chisholm_DDL_Dyadic.thy}}
-& \textsf{\small DDL.thy} 
+\textsf{\small \detokenize{Chisholm_CJ_DDL_Dyadic.thy}}
+& \textsf{\small CJ_DDL.thy} 
 & --
 &  Contains a study analogous to \textsf{\small
   \detokenize{Chisholm_SDL.thy}} for 
